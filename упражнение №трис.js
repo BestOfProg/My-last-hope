@@ -76,7 +76,7 @@ detectLevel();
 
 
 function chooseOptExpenses() {
-    for (i = 1; i < 3; i++) {
+    for (i = 1; i <= 3; i++) {
         let question = prompt("Статья необязательных расходов?");
         appData.optionalExpenses[i] = question;
         console.log(appData.optionalExpenses);
